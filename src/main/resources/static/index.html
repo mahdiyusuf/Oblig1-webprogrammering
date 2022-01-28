@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+#t1{
+    display: inline-block;
+    color: red;
+}
+#t2{
+    display: inline-block;
+    color: red;
+}
+#t3{
+     display: inline-block;
+    color: red;
+ }
+#t4{
+      display: inline-block;
+    color: red;
+}
+#t5{
+       display: inline-block;
+    color: red;
+}
+
+</style>
+<body>
+<h1> Bestilling av kinobillett</h1>
+<label> Velg film </label>
+<select id="handlekurv">
+
+    <option> Velg film </option>
+
+</select>
+
+<br><br>
+
+<label> Antall </label>
+    <input id="Antall" type="number" style="width: 50px"><p id="t1"></p>
+
+<br><br>
+
+<label> Fornavn </label>
+    <input id="Fornavn" type="text"> <p id="t2"> </p>
+
+<br><br>
+
+<label> Etternavn </label>
+<input id="Etternavn" type="text"><p id="t3"> </p>
+
+<br><br>
+
+<label> Telefonnr </label>
+<input id="Telefonr" type="number"><p id="t4"> </p>
+
+<br><br>
+
+<label> Email </label>
+<input id="Email" type="email"> <p id="t5"> </p>
+
+<br><br>
+
+<button onclick="Kjopbillett()">Kjøp Billett</button>
+
+<br><br>
+
+<h1> Alle Billetter </h1>
+<button onclick="SlettAlleBillettene()">Slett alle billettene</button>
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
