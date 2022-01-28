@@ -121,6 +121,10 @@ function Kjopbillett() {
             "<td>" + biletter[i].email + "</td> </tr>"
     }
 }
+function SlettAlleBillettene(){
+    document.getElementById("Billettene" ).innerHTML =""
+    biletter = [];
+}
 
 
 
